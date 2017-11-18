@@ -1,0 +1,317 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:"微软雅黑";
+    box-sizing: border-box;
+}
+a {
+    text-decoration:none;
+}
+.header {
+    background:#555;
+    width:100%;
+    min-width:1000px;
+    height:30px;
+}
+.header a {
+    color:#ddd;
+    padding:0 10px;
+    line-height:30px;
+    font-size:12px;
+    display:inline-block;
+}
+.header a:hover {
+    color:#fff;
+}
+.header .zuo {
+    float:left;
+}
+.header .you {
+    float:right;
+}
+.banner{
+    background: #F0F3F5;
+}
+.banner .main {
+    width: 1000px;
+    height: 120px;
+    margin: 0 auto;
+}
+.banner .main .shang{
+    height: 80px;
+    width: 100%;
+    border-bottom:1px solid #ded;
+    
+}
+.banner .main .shang .zuo{
+    width: 200px;
+    float: left;
+
+}
+.banner .main .shang .zuo a{
+    width: 200px;
+    display: inline-block;
+    font-size: 30px;
+    color: #258DCD;
+    line-height: 80px;
+    text-align: center;
+}
+.banner .main .shang .you {
+    width: 800px;
+    float: right;
+    position: relative;
+}
+.banner .main .shang .you .ru {
+    width:400px;
+    height:30px;
+    border:none;
+    background:#fff;
+    box-shadow:0 1px 1px #ccc;
+    /* text-indent 首行文本的缩进  */
+    text-indent:10px;
+    position:absolute;
+    top:25px;
+    left:50px;
+    outline:none;
+    color:#333;
+    border-radius:3px 0 0 3px;
+}
+.banner .main .shang .you .niu {
+    width:40px;
+    height:32px;
+    border:none;
+    background:#888 url(../images/search.png) no-repeat center center;
+    background-size:16px;
+    position:absolute;
+    top:25px;
+    left:450px;
+    border-radius:0 3px 3px 0;
+    box-shadow:0 1px 2px #888;
+}
+.banner .main .xia{
+    height: 39px;
+    width: 100%;
+}
+.banner .main .xia a{
+    color:#258DCD;
+    font-size: 13px;
+    line-height: 39px;
+    padding: 0 10px;
+}
+.banner .main .xia a:hover{
+    background: #258DCD;
+    color: white;
+}
+.mainzhong{
+    width: 100%;
+    margin: 50px 0 0 0 ;
+}
+.mainzhong .main{
+    width: 1000px;
+    margin: 0 auto;
+}
+.mainzhong .main .left{
+    width: 650px;
+    float: left;
+}
+.mainzhong .main .left .fenlei{
+    height: 40px;
+    color: #333;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.mainzhong .main .left .fenlei a{
+    font-size:14px;
+    /* line-height:20px; */
+    color:#2277aa;
+    padding: 2px;
+}
+.mainzhong .main .left .fenlei a:hover{
+    color: white;
+    background: #258DCD;
+}
+.mainzhong .main .left .leixing {
+    width:100%;
+    padding:5px 0;
+    border-bottom:1px solid #ddd;
+}
+.mainzhong .main .left .leixing a{
+    padding: 3px 10px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px;
+    color: #333;
+    border-radius: 4px;
+}
+.mainzhong .main .left .leixing a:hover{
+    background:#eee;
+    color:#333;
+}
+.mainzhong .main .left .leixing .checked{
+    background: #0000FF;
+    color: white;
+}
+.mainzhong .main .left .movie{
+    margin: 20px 0 0 0;
+}
+.mainzhong .main .left .movie a {
+    width: 162px;
+    height: 250px;
+    float: left;
+    position: relative;
+}
+.mainzhong .main .left .movie a  img{
+    width: 150px;
+    height: 214px;
+    display: block;
+    margin: 0 auto;
+}
+.mainzhong .main .left .movie a .title{
+    text-align:center;
+}
+.mainzhong .main .left .movie a .title .name{
+    line-height: 30px;
+    color:#101b83;
+    font-size: 14px;
+}
+.mainzhong .main .left .movie a .title .fen{
+    color:#dd9f34;
+    margin:0 5px;
+} 
+.mainzhong .main .left .load{
+    width: 100%;
+    margin: 20px 0;
+    background: #f3f3f3;
+    color: #1625b0;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    cursor:pointer;
+    display: block;
+    border:1px solid #f3f3f3;
+    border-radius: 5px;
+}
+.mainzhong .main .left .load:hover {
+    color:green;
+    font-size:15px;
+}
+.mainzhong .main .left .banner1 {
+    width: 650px;
+    height: 240px;
+    position: relative;
+    margin: 20px  0 ;
+    overflow: hidden;
+}
+.mainzhong .main .left .banner1 a{
+    /* position: absolute; */
+    top: 0;
+    left: 650px;
+}
+.mainzhong .main .right {
+    width: 300px;
+    float: right;  
+}
+.mainzhong .main .right .wen{
+    width: 100%;
+    height: 50px;
+    background:#f2f7f6;
+    border-radius:6px;
+    text-indent:20px;
+}
+.mainzhong .main .right .wen a{
+    color: black;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 3px;
+}
+.mainzhong .main .right .wen a:hover{
+    color: white;
+    background: #17618e;
+}
+.mainzhong  .main .right .film{
+    width: 90%;
+    height: 21px;
+    background:#f6f3d3;;
+    border-radius:6px;
+    padding:14px 5%;
+    margin:20px 0 0 0;
+    position:relative;
+}
+.mainzhong .main .right .film input {
+    height:18px;
+    font-size:12px;
+    color:#333;
+    border:1px solid #ccc;
+    text-indent:6px;
+}
+.mainzhong .main .right .film .xuan{
+    width:262px;
+    background:#fff;
+    position:absolute;
+    top:40px;
+    left:15px;
+    padding:10px 0;
+    border:1px solid #ccc;
+    display:none;
+}
+.mainzhong .main .right .film .xuan  .a{
+    width:100%;
+    line-height:25px;
+    color:#3e4ba6;
+    text-indent:10px;
+    font-size:12px;
+    display:block;
+    cursor:pointer;
+}
+.mainzhong .main .right .film .xuan .b{
+    font-size:12px;
+    color:#3e4ba6;
+    padding:1px 5px;
+    border-radius:3px;
+    margin:5px 8px;
+    display:inline-block;
+    cursor:pointer;
+}
+.mainzhong .main .right .film .xuan  .a:hover{
+    background:#f2f7f6;
+}
+.mainzhong .main .right .film .xuan  .b:hover{
+    background: #eee;
+}
+.mainzhong .main .right .banner img{
+    display: block;
+    margin: 20px 0 0 0;
+}
+.mainzhong .main .right .koubei{
+    width: 100%;
+    margin: 20px 0;
+    /* border: 1px solid red; */
+}
+.mainzhong .main .right .koubei .title{
+    font-size: 16px;
+    color: #333;
+    line-height: 50px;
+}
+.mainzhong .main .right .koubei .main1{
+    width: 100%;
+}
+.mainzhong .main .right .koubei .main1 span{
+    font-size: 12px;
+    color:#34386a;
+    display: block;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+.mainzhong .main .right .koubei .main1 a{
+    text-indent: 10px;
+    padding: 3px;
+}
+.mainzhong .main .right .koubei .main1 a:hover{
+    background:#253281;
+    color:#fff;
+}
+/* .mainzhong .di{
+    width: 1000px;
+    height: 400px;
+} */
